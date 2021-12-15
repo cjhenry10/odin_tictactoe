@@ -1,0 +1,29 @@
+html {
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#game > * {
+    outline: 1px white solid;
+    height: 25vh;
+    font-size: 15vh;
+    line-height: 25vh;
+    color: white;
+}
+
+.game-active:hover {
+    background-color: #303030;
+}
+
+#play-again button {
+    margin: 0 auto;
+    max-width: 100%;
+    width: 200px;
+    font-size: 3vh;
+}
+
+#play-again p {
+    font-size: 3vh;
+    padding-top: 2vh;
+}
